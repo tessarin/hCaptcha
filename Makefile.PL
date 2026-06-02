@@ -13,6 +13,10 @@ WriteMakefile(
     PREREQ_PM => {
         'JSON' => '4.10',
         'REST::Client' => '281',
+        'URI' => '5.34',
+    },
+    TEST_REQUIRES => {
+        'Test2' => '1.302219',
     },
 
     META_MERGE => {
