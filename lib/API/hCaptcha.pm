@@ -16,7 +16,9 @@ ADJUST {
             host => 'https://api.hcaptcha.com',
         });
 
-    $client->addHeader('Content-type', 'x-www-form-urlencoded');
+    $client->addHeader(
+            'Content-type' => 'application/x-www-form-urlencoded'
+        );
 }
 
 method verify ($token, $ip = undef)
