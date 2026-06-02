@@ -22,7 +22,7 @@ my $mock = Test2::Mock->new(class => 'REST::Client');
     like(
         dies { $h->verify(0) },
         qr/connection/i,
-        'dies if network returns < 200'
+        'dies if network returns > 200'
     );
     $mock->restore('responseCode');
 
