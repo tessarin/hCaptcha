@@ -1,0 +1,12 @@
+# Perl dist
+Makefile
+Makefile.old
+MANIFEST
+MANIFEST.bak
+META.*
+MYMETA.*
+.build/
+cover_db/
+blib/
+pm_to_blib
+/API-hCaptcha-*

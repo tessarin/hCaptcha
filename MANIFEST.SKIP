@@ -1,0 +1,27 @@
+# Build
+^Makefile$
+^Makefile\.old$
+^blib
+^blibdirs$
+^pm_to_blib
+\.bak$
+^local/
+
+# Metadata
+^MANIFEST\.SKIP$
+^META\.
+^MYMETA\.
+
+# Distribution
+\.tar\.gz$
+^API-hCaptcha-
+
+# Version Control
+^\.git
+
+# OS & Editor
+\.DS_Store
+\.sw[op]$
+
+# Test
+^cover_db
